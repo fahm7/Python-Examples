@@ -6,7 +6,7 @@
 speed_of_light = 300000. # km per second
 
 def speed_fraction(traceroute,distance):
-    speed= distance/traceroute*1000*2
+    speed= (float)distance/traceroute*1000*2
     return speed/speed_of_light
 
 
