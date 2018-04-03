@@ -1,3 +1,17 @@
+# hashtable_lookup(htable,key)
+
+# that takes two inputs, a hashtable
+# and a key (string),
+# and returns the value associated
+# with that key.
+
+def hashtable_lookup(htable,key):
+    bucket = hashtable_get_bucket(htable,key)
+    for s in bucket:
+        if s[0] == key:
+            return s[1]
+
+
 #    hashtable_add(htable,key,value)
 #
 # that adds the key to the hashtable (in 
@@ -17,6 +31,10 @@ def hashtable_add(htable,key,value):
     
     return htable  
     
+# Define a procedure, hashtable_get_bucket,
+# that takes two inputs - a hashtable, and
+# a keyword, and returns the bucket where the
+# keyword could occur.
     
 def hashtable_get_bucket(htable,keyword):
     return htable[hash_string(keyword,len(htable))]
