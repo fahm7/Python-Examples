@@ -16,3 +16,6 @@ passage = ("The number of orderings of the 52 cards in a deck of cards "
 print("Number of Words =")
 print count_words(passage)
 # >>>56
+print "------------------------------------------------------------"
+test= "a","b","c"
+print type(test)
