@@ -16,7 +16,7 @@ print (session.query(Person).all())
 # Return the first Person from all Persons in the database
 person = session.query(Person).first()
 print (person.name)
-#u'new person'
+#fam
 # Find all Address whose person field is pointing to the person object
 print(session.query(Address).filter(Address.person == person).all())
 #[<sqlalchemy_declarative.Address object at 0x2ee3cd0>]
@@ -26,4 +26,3 @@ session.query(Address).filter(Address.person == person).one()
 #<sqlalchemy_declarative.Address object at 0x2ee3cd0>
 address = session.query(Address).filter(Address.person == person).one()
 print (address.post_code)
-#u'00000'
