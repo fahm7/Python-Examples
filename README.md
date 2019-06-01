@@ -1,13 +1,13 @@
 # Python-Examples for Course
 Python Basics - Course Content
-1. Background
+###1. Background
 • Problem Statement
 • Algorithm
 • Program
 • Programming Language
 • Why Python
 • Python in the software industry
-2. Get Started
+###2. Get Started
 • Interpreter and Compiler
 • Python Installation
 • Use of IDLE and Python IDE(PyCharm)
@@ -15,7 +15,7 @@ Python Basics - Course Content
 • Datatypes
 • Difference Between Python2 and Python3
 • keywords in python
-3. Data Types
+###3. Data Types
 • Variables
 • constats
 • print statement
@@ -24,7 +24,7 @@ Python Basics - Course Content
 • String functions
 • Float Type
 • Difference between Number and Float type
-4. Conditional and Looping Statements
+###4. Conditional and Looping Statements
 • If statement
 • If else statement
 • If elif else statement
@@ -38,7 +38,7 @@ PYTHON COURSE CONTENT !1
 • Break
 • Continue
 • Pass
-5. Managing data
+###5. Managing data
 • List
 • append()
 • insert()
