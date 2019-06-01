@@ -73,7 +73,6 @@ PYTHON COURSE CONTENT !2
 • Difference and ‘-‘
 • Symmetric and ^
 • isdisjoin()
-•
 • Dictionary
 • Update()
 • Clear(0
@@ -102,7 +101,7 @@ PYTHON COURSE CONTENT !2
 • Anonymous Function or Lambda function
 • Filter and Map function with Lambda
 • Map Reduce
-7. Files
+### 7. Files
 • File handlers
 • Opening a File
 • Read from a file (read and readlines)
@@ -110,7 +109,7 @@ PYTHON COURSE CONTENT !2
 PYTHON COURSE CONTENT !3
 • hadle exceptions
 • Writing to a file
-8. Exception Handling
+### 8. Exception Handling
 • Difference between Runtime and Compile-Time
 • Errors
 • Exception
@@ -118,20 +117,20 @@ PYTHON COURSE CONTENT !3
 • Try .. except
 • Raise
 • Finally
-9. Testing in Python
+### 9. Testing in Python
 • Pytest Configuration
 • Unit Test case Execution
 **Note : Exercises on all of the above chapters to be completed before start of
 next advanced modules.
-PYTHON COURSE CONTENT !4
-ADVANCE PYTHON
-1. Oops in Python
+
+## ADVANCE PYTHON
+### 1. Oops in Python
 • Object Oriented
 • Entity
 • Objects
 • Class
 • Inheritances
-2. Working with Oops
+### 2. Working with Oops
 • Creating Python Classes
 • Creating Objects
 • Accessing Functions with Objects
@@ -147,15 +146,15 @@ ADVANCE PYTHON
 • Method Resolution Order in Python
 • Operator Overloading
 • Examples
-3. Deep into Data Handling
+### 3. Deep into Data Handling
 • Data-structures
 • Stack Implementation
 • Queue Implementation
-4. LIst Comprehensions
+### 4. LIst Comprehensions
 • iterables
 • Decorators/random
 • Generators
-5. Threads
+### 5. Threads
 • What are Threads
 • Threads states
 PYTHON COURSE CONTENT !5
@@ -163,7 +162,7 @@ PYTHON COURSE CONTENT !5
 • Start Threads
 • Killing Threads
 • Locks/Synchronization
-6. Data Bases Management
+### 6. Data Bases Management
 • Data processing
 • Installing Postgres
 • Accessing Postgres through PG-Admin III
@@ -180,12 +179,12 @@ PYTHON COURSE CONTENT !5
 • Updating records
 • Viewing records
 • Deleting records
-7. Regular Expressions
+### 7. Regular Expressions
 • Regular Expressions
 • Match
 • Search
 • Findall
-8. Networking In Python
+### 8. Networking In Python
 • Basics networking Modules
 • FTP Program
 • Sending Emails with messages
@@ -194,7 +193,7 @@ PYTHON COURSE CONTENT !5
 • Fetch IPaddress from Hostname
 • Basic Socket Programming
 PYTHON COURSE CONTENT !6
-9. CSV Management
+### 9. CSV Management
 • Working CSV
 • Reader
 • Writer
@@ -203,8 +202,7 @@ PYTHON COURSE CONTENT !6
 • Get_dialect
 • List_dialect
 • Field_size_limit
-Exercises on all of the above chapters to be completed before start of
-next advanced modules.
+
 We also given an introduction on any one of the following topics
 I. Django
 II. Selenium
