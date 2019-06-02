@@ -4,7 +4,7 @@ print (type(i))
 # funtion with no return type
 
 def display_greatings():
-	print "Welcome all to the journey of Python"
+	print("Welcome all to the journey of Python")
 
 print (display_greatings());
 
