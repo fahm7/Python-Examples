@@ -1,4 +1,4 @@
-# Python-Examples for Course
+# Python-Examples for Course - 01Python Basics Course01
 Python Basics - Course Content
 ### 1. Background
 • Problem Statement
@@ -123,7 +123,7 @@ PYTHON COURSE CONTENT !3
 **Note : Exercises on all of the above chapters to be completed before start of
 next advanced modules.
 
-## ADVANCE PYTHON
+## ADVANCE PYTHON - 02Python Advance Course01
 ### 1. Oops in Python
 • Object Oriented
 • Entity
