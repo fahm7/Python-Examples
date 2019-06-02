@@ -1,6 +1,6 @@
 mylist= ['one','two','three','four']
 print(mylist)
-print mylist[3]
+print (mylist[3])
 
 # append  -----
 mylist.append('tree')
@@ -42,9 +42,9 @@ print(mylist)
 
 #index
 fruits = ['orange', 'apple', 'pear', 'banana', 'kiwi', 'apple', 'banana']
-print fruits.index('banana')
+print( fruits.index('banana'))
 # Find next banana starting a position 4
-print fruits.index('banana', 4)
+print (fruits.index('banana', 4))
 
 #count
 print(fruits.count('apple'))
@@ -56,10 +56,10 @@ mylist= ['one','two','three','four']
 mylist1= ['blue','green','yellow','red']
 
 newlist=mylist+ mylist1
-print newlist
+print (newlist)
 
 print [0,1] + [1,2]
 print ("LENGTHS")
-print len(mylist)
-print len(mylist1)
-print len(newlist)
+print (len(mylist))
+print (len(mylist1))
+print (len(newlist))

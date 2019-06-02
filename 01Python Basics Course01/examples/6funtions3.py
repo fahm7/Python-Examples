@@ -15,7 +15,7 @@ li = [['sam',45,'CS201'],['zam',25,'CS203'],
 
 newlit  = [ name+ " is in "+course for name, age, course in li if(course.find("CS3")!=-1) ]
 
-print "__________________"
+print( "__________________")
 
-print newlit
+print (newlit)
 
