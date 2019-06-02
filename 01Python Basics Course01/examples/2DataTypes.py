@@ -1,14 +1,17 @@
 #PYTHON CONSTANTS
 print('________________________CONSTANTS_________________________')
-print (123)
-print (98.6 )
+print(123)
+print(98.6)
 print ('Hello world')
 
 print('________________________VARIABLES_________________________')
 
-x=12.5
-y='s'
-z=55
+x = 12.5
+y = 's'
+z = 55
+print("x is =",type(x))
+print("y is =",type(y))
+print("z is =",type(z))
 
 print('________________________NUMERIC EXPRESSIONS_________________________')
 xx=2
