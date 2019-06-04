@@ -1,12 +1,12 @@
 i= 5
 print (type(i))  
-print('________________________WHILE LOOP 1_________________________')
+print('________________________WHILE LOOP1_________________________')
 i = 1
 while i < 6:
   print(i)
   i += 1
 
-print('________________________WHILE LOOP 2_________________________')
+print('________________________WHILE LOOP2 PASS_________________________')
 
 while i>0:
 	print (i)
@@ -15,7 +15,7 @@ while i>0:
 print("Done!!")
 print (i)
 
-print('________________________WHILE LOOP 3_________________________')
+print('________________________WHILE LOOP3_________________________')
 
 #while True:
 #	line = raw_input("enter some thing, or \'stop\' to stop the process  ")
@@ -25,7 +25,7 @@ print('________________________WHILE LOOP 3_________________________')
 #print (line)
 #print("Done!!")
 
-print('________________________WHILE LOOP 4_________________________')
+print('________________________WHILE LOOP4  CONTINUE_________________________')
 
 i = 0
 while i < 6:
@@ -35,7 +35,7 @@ while i < 6:
   print(i)
 
 
-print('________________________FOR LOOP 1_________________________')
+print('________________________FOR LOOP1 FOR_________________________')
 
 fruits = ["apple", "banana", "cherry"]
 for x in fruits:
@@ -44,7 +44,7 @@ for x in fruits:
 for x in "banana":
   print(x)
 
-print('________________________FOR LOOP 2_________________________')
+print('________________________FOR LOOP2 CONTINUE_________________________')
 
 fruits = ["apple", "banana", "cherry"]
 for x in fruits:
@@ -56,7 +56,7 @@ for x in fruits:
 for x in range(6):
   print(x)
 
-print('________________________FOR LOOP 3_________________________')
+print('________________________FOR LOOP3 RANGE_________________________')
 
 ''' The range() function defaults to increment the sequence by 1, however it is possible to specify
  the increment value by adding a third parameter: range(2, 30, 3):
@@ -64,7 +64,7 @@ print('________________________FOR LOOP 3_________________________')
 for x in range(2, 30, 3):
   print(x)
 
-print('________________________FOR NESTED LOOP _________________________')
+print('________________________FOR NESTED LOOP4 NESTED FOR _________________________')
 adj = ["red", "big", "tasty"]
 fruits = ["apple", "banana", "cherry"]
 
