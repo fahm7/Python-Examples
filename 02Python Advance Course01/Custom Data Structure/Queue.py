@@ -18,7 +18,7 @@ myQueue= Queue()
 myQueue.enqueue("Mon")
 myQueue.enqueue("Tue")
 
-print myQueue.size()
+print (myQueue.size())
 print (myQueue.dequeue())
-print myQueue.size()
+print (myQueue.size())
 
