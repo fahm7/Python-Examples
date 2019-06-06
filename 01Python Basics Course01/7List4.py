@@ -6,11 +6,11 @@ list2.append([5, 6])
 
 # to check, you can print them out using the print statements below.
 
-print "showing list1 and list2:"
-print list1
-print list2
+print("showing list1 and list2:")
+print(list1)
+print(list2)
 
-print "A list is symmetric if the first row is the same as the first column and so on"
+print("A list is symmetric if the first row is the same as the first column and so on")
 # A list is symmetric if the first row is the same as the first column,
 # the second row is the same as the second column and so on. Write a
 # procedure, symmetric, which takes a list as input, and returns the
@@ -39,30 +39,30 @@ def symmetric(p):
         #print("l2 \n",l2)
 
 
-print symmetric([[1, 2, 3],
+print (symmetric([[1, 2, 3],
                 [2, 3, 4],
-                [3, 4, 1]])
+                [3, 4, 1]]))
 #>>> True
 
-print symmetric([["cat", "dog", "fish"],
+print(symmetric([["cat", "dog", "fish"],
                 ["dog", "dog", "fish"],
-                ["fish", "fish", "cat"]])
+                ["fish", "fish", "cat"]]))
 #>>> True
 
-print symmetric([["cat", "dog", "fish"],
+print (symmetric([["cat", "dog", "fish"],
                 ["dog", "dog", "dog"],
-                ["fish","fish","cat"]])
+                ["fish","fish","cat"]]))
 #>>> False
 
-print symmetric([[1, 2],
-                [2, 1]])
+print(symmetric([[1, 2],
+                [2, 1]]))
 #>>> True
 
-print symmetric([[1, 2, 3, 4],
+print(symmetric([[1, 2, 3, 4],
                 [2, 3, 4, 5],
-                [3, 4, 5, 6]])
+                [3, 4, 5, 6]]))
 #>>> False
 
-print symmetric([[1,2,3],
-                 [2,3,1]])
+print(symmetric([[1,2,3],
+                 [2,3,1]]))
 #>>> False

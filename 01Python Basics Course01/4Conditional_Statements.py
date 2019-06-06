@@ -8,6 +8,7 @@ if x > 20:
 
 print ('Finis')
 
+print('________________________CONDITIONAL STMTS MULTI-WAY_________________________')
 
 x = 4
 if x > 2 :
