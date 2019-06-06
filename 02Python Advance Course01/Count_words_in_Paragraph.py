@@ -14,8 +14,8 @@ passage = ("The number of orderings of the 52 cards in a deck of cards "
            "possible way.")
 
 print("Number of Words =")
-print count_words(passage)
+print (count_words(passage))
 # >>>56
-print "------------------------------------------------------------"
+print("------------------------------------------------------------")
 test= "a","b","c"
-print type(test)
+print (type(test))

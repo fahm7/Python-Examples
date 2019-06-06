@@ -45,7 +45,7 @@ print("Thread 2 Alive :", thread2.is_alive())
 print("Thread 1 Name :", thread1.getName())
 print("Thread 2 Name :", thread2.getName())
 
-# Wait for threads to exit
+# Wait for 5threads to exit
 thread1.join()
 thread2.join()
 

@@ -1,5 +1,5 @@
 # ---------- SYNCHRONIZING THREADS ----------
-# You can lock other threads from executing
+# You can lock other 5threads from executing
 
 # If we try to model a bank account we have to make sure
 # the account is locked down during a transaction so
@@ -17,7 +17,7 @@ class BankAccount(threading.Thread):
         self.moneyRequest = moneyRequest
 
     def run(self):
-        # Get lock to keep other threads from accessing the account
+        # Get lock to keep other 5threads from accessing the account
         threadLock.acquire()
 
         # Call the static method
@@ -42,10 +42,10 @@ class BankAccount(threading.Thread):
         time.sleep(3)
 
 
-# Create a lock to be used by threads
+# Create a lock to be used by 5threads
 threadLock = threading.Lock()
 
-# Create new threads
+# Create new 5threads
 doug = BankAccount("Doug", 1)
 paul = BankAccount("Paul", 100)
 sally = BankAccount("Sally", 50)
@@ -55,7 +55,7 @@ doug.start()
 paul.start()
 sally.start()
 
-# Have threads wait for previous threads to terminate
+# Have 5threads wait for previous 5threads to terminate
 doug.join()
 paul.join()
 sally.join()
